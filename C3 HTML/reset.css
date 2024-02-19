@@ -1,0 +1,66 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+/* Set core root font-size */
+html {
+  font-size: 62.5%;
+}
+
+/* Set core body font-size */
+body {
+  font-size: 1.6rem;
+}
+
+/* Remove hyperlink underline */
+a {
+  text-decoration: none;
+}
+
+/* Remove default button styles */
+button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* Remove default input styles */
+input {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* Remove default textarea styles */
+textarea {
+  border: none;
+  padding: 0;
+  background: none;
+}

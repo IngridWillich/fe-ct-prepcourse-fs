@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(242, 214, 219);
+}
+.title {
+font-size: 2.8em;
+margin: 1cm;
+}
+.infoimportante{
+    font-size: 2,8em;
+    margin:auto
+    }
+#principal{
+    font-size: 4em;
+    margin: auto;
+    background-color: white;
+}
+.imageninmueble{
+    width: 25em; height: 25em; 
+    border-radius: 10%; 
+    border: 2px solid black;
+}
+h2{
+    font-size: 3em;
+    font: oblique bold 120% cursive;
+    font-weight: bold;
+}
+h3{
+    font-size: 3em;
+    font: oblique bold 120% cursive;
+    margin:1em;
+    
+}
+h4{
+    font-size: 2,9em;
+    font-family: "Constantia", serif;
+    font-weight: 700;
+}
+p{
+    font-size: 2,8em;
+    font-family: "Constantia", serif;
+    font-weight: normal;
+}
+.imagenconteiner{
+        width:85vw;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 5px solid transparent;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap:10px
+}
+li{
+    font-size: 2,8em;
+    font-family: "Constantia", serif;
+    font-weight: normal;
+}
+.logoconteiner{
+        position: fixed; 
+        background-size:cover ;
+        top: 50%;
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        opacity: 40%;  
+        z-index: -1;
+}
+    
+  
+  
