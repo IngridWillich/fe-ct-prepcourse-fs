@@ -2,9 +2,11 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
    // Recibe un objeto y el nombre de una propiedad.
    // Devuelve el valor de esta propiedad.
    // Tu código:
-   const a = objeto[propiedad];
+   var arrayPropiedades=propiedad.split(".");
 
-   return a;
+   if(arrayPropiedades.length>=2){
+      return objeto[[arrayPropiedades[0]][arrayPropiedades[1]]];
+   }else return objeto[propiedad];
 };
 
 module.exports = obtenerValorPropiedad;
